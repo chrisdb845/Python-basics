@@ -5,9 +5,14 @@ integer %=2
 print(integer)
 
 if integer == 0:
-    print("The number is even")
+    print("The number is neutral")
+
+elif integer % 2 == 0:
+    print("Number is even")
 
 else:
-    print("The number is odd")
+    print("the number is odd")
+
+
 
 
